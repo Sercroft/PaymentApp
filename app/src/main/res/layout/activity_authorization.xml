@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+>
+
+    <EditText
+        android:id="@+id/etCard"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/hint_card_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/hint_amount"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAuthotization"
+        android:textStyle="bold"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAmount"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Realizar transacción" />
+
+    <TextView
+        android:id="@+id/tvAuthReceiptId"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnAuthotization"
+        android:textIsSelectable="true"
+        />
+</RelativeLayout>

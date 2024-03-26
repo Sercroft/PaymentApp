@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Payment App Nexos</string>
+    <string name="hint_amount">Monto de la transacción</string>
+    <string name="hint_card_number">Número de tarjeta</string>
+    <string name="hint_receiptId">Número de Recibo</string>
+    <string name="hint_receiptIdAnnulment">Número de Recibo para anular</string>
+</resources>
